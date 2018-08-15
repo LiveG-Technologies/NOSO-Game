@@ -11,7 +11,7 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-    this.load.setBaseURL("http://liveg-technologies.github.io/NOSO-Game");
+    this.load.setBaseURL("https://liveg-technologies.github.io/NOSO-Game");
     this.load.image("background", "assets/other/Background.png");
 }
 
